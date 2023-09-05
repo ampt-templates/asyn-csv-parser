@@ -30,28 +30,6 @@ This project showcases a simple CSV parser built using Ampt, a platform offering
 
 - **csvStorage.on("write:*.csv")**: On a `.csv` file write event, the system reads and parses the CSV file and stores the processed data.
 
-## Setup and Usage
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-2. **Launch Ampt CLI**:
-```bash
-ampt
-```
-3. **Install Dependencies**:
-
-In Ampt CLI, run the following commands to install all dependencies: 
-
-```bash
-install @ampt/sdk
-install express
-install @ampt/data
-install papaparse
-install multer
-```
-4. **Test**:
+## Test
    
-Go to the URL of sandbox Ampt provides you. Upload a file, and check [Ampt Dashoard](ampt.dev) to see the file and storage.
+Go to the URL of the developer sandbox that Ampt provides you. Upload a file, and check [Ampt Dashoard](ampt.dev) to see the file and storage.
