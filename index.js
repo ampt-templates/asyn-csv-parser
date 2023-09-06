@@ -14,7 +14,6 @@ publicApi.post("/csv", async (req, res) => {
   try {
     const delimiter =  ",";
     if (!req.files || !req.files.length) {
-      console.log ("in the if!!");
       return res.status(400).send("No files were uploaded.");
     }
     const buffer = req.files[0].buffer;
