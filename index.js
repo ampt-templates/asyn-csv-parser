@@ -1,6 +1,6 @@
 import { http, storage } from "@ampt/sdk";
 import express, { Router } from "express";
-import data from "@ampt/data";
+import { data } from "@ampt/data";
 import Papa from "papaparse";
 import multer from 'multer';
 const multipartFormLoader = multer({ storage: multer.memoryStorage() }).any();
