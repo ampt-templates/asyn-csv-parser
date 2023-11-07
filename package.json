@@ -1,7 +1,7 @@
 {
-  "name": "javascript-api",
+  "name": "async-csv-parser",
   "version": "1.0.0",
-  "description": "Ampt JavaScript API template",
+  "description": "Asynchronous CSV Parser with Ampt template",
   "private": true,
   "main": "index.js",
   "type": "module",
@@ -9,8 +9,8 @@
     "start": "ampt"
   },
   "dependencies": {
-    "@ampt/data": "^0.0.1-beta.19",
-    "@ampt/sdk": "latest",
+    "@ampt/data": "^1.0.10",
+    "@ampt/sdk": "^1.0.7",
     "express": "^4.18.2",
     "multer": "^1.4.5-lts.1",
     "papaparse": "^5.4.1"
